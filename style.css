@@ -1,0 +1,35 @@
+
+@keyframes color-change {
+    0% {
+      color: rgb(128, 128, 255);
+    }
+
+    25% {
+        color: rgb(220, 79, 255);
+      }
+  
+    50% {
+      color: rgb(255, 158, 158);
+    }
+  
+    75% {
+      color: rgb(65, 255, 65);
+    }
+
+    100% {
+        color: rgb(154, 154, 255);
+      }
+}
+
+
+body {
+    font-family: Arial,  sans-serif; /* Семейство шрифтов */
+    font-size: 11px; /* Размер основного шрифта в <p></p>  */
+    background-color:#FFFFFF; /* Цвет фона веб-страницы */
+    color: #333333; /* Цвет основного текста */ 
+}
+h1 {
+    color: #5988FF; /* Цвет заголовка */
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: Inter; /* Семейство шрифтов */
+}
